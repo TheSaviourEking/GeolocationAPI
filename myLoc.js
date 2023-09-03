@@ -76,7 +76,7 @@ function showMap(coords) {
 
     let mapsOptions = {
         zoom: 10, // 0 - 21
-        centre: googleLatAndLong,
+        center: googleLatAndLong,
         mapTypeId: google.maps.MapTypeId.ROADMAP // SATELLITE, HYBRID
     };
 
